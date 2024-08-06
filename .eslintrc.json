@@ -1,0 +1,19 @@
+{
+  "extends": ["eslint:recommended", "next/core-web-vitals"],
+  "rules": {
+    "react/prop-types": "off",
+    "no-unused-vars": "warn"
+  },
+
+  "root": true,
+  "extends": ["next/core-web-vitals"],
+  "overrides": [
+    {
+      "files": ["*.js"],
+      "parser": "espree",
+      "parserOptions": {
+        "ecmaVersion": 2020
+      }
+    }
+  ]
+}
